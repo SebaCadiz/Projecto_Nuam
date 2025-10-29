@@ -27,7 +27,7 @@ Control de versiones Git / GitHub
 Asegúrate de tener instalado:
 
 - [Python 3.12+]
-- [pip]
+- [pip,pip3]
 - [Git]
 - Entorno virtual
 
@@ -43,28 +43,28 @@ cd Projecto_Nuam-main
 
 Crea y activa un entorno virtual:
 
-python -m venv venv
 En Windows:
+python -m venv (nombre)
 venv\Scripts\activate
 
 En Linux:
+python -m venv (nombre)
 source venv/bin/activate
 
-Instala las dependencias:
+Instala las django:
+python -m pip install django
+python3 -m pip install django
 
-pip install -r requirements.txt
-
-Aplica las migraciones y crea un superusuario administrativo:
+Aplica las migraciones :
 
 python manage.py migrate
-python manage.py createsuperuser
 
 credenciales sugeridas (Ya creadas):
 1-
 Usuario:Nicolas
 Contraseña:Nico99167647
 2-
-Usuario:Sebastian
+Usuario:Sebastian super usario
 Contraseña:Seba99167647
 
 Ejecuta el servidor de desarrollo:
