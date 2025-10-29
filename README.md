@@ -37,9 +37,9 @@ Instalación y Configuración
 Clona el repositorio:
 
 git clone https://github.com/SebaCadiz/Projecto_Nuam.git
-cd Projecto_Nuam-main
-  cd Proyecto-backend-django
-    cd Nuam
+cd Projecto_Nuam-main,
+ cd Proyecto-backend-django,
+   cd Nuam
 
 Crea y activa un entorno virtual:
 
